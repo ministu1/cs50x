@@ -1,0 +1,20 @@
+sort1 uses: Bubble sort
+
+How do you know?: During testing, the sort1 algorithm showed relatively poor perfomance for both the random
+                  and the reversed text files, with an increase in sorting time by a factor of 85.9 between
+                  the text files containing 5,000 (~78 ms) and 50,000 (~6,700 ms) numbers. This is consistent
+                  with an efficiency of O(n²). However, it showed significantly improved performance on the
+                  already sorted text files, allowing it to finish the tasks substantially faster (~33 ms and 1,330 ms),
+                  which is consistent with an efficiency of Ω(n).
+
+sort2 uses: Merge sort
+
+How do you know?: The sort2 algorithm showed equally good performance across all three types of text files.
+                  It showed an increase of sorting time by a factor of 24.1 between the smallest (~36 ms)
+                  and the largest (~867.6 ms) text files. This is consistent with an efficiency of Θ(n log n).
+
+sort3 uses: Selection sort
+
+How do you know?: During testing, the sort3 algorithm showed equally poor performance across all three types
+                  of text files with an increase in sorting time by a factor of 73.2 between the smallest (~58 ms)
+                  and the largest (4,245.6 ms) text files. This is consistent with an efficiency of Θ(n²).
